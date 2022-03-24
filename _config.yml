@@ -1,5 +1,8 @@
 # Site settings
 title: Throyd's github projects
-tagline: ""
+
+collections:
+  projects:
+    collections_dir: _projects
 
 exclude: [.scss, README.md, package.json]
