@@ -14,9 +14,17 @@
 		<div class="uk-container">
 			{{ content }}
 			
-			
+	<a class="uk-link-toggle" href="#">
+    <span class="uk-link-heading"></span>
+</a>		
 			<div class="uk-grid">
+				<div class="uk-width-1-1">
+					Here you can find the projects I'm working or I worked on. I love coding.
+				</div>
 				{% for project in site.projects %}
+				{% if project.url %}
+			jhin mola
+				{% endif %}
 					<div class="uk-width-1-3@m uk-card uk-card-default uk-padding-remove uk-margin-remove">
 						<div class="uk-card-header">
 							<h3 class="uk-card-title">{{ project.name }}</h3>
