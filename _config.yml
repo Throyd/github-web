@@ -1,0 +1,5 @@
+# Site settings
+title: Throyd's github projects
+tagline: ""
+
+exclude: [.scss, README.md, package.json]
