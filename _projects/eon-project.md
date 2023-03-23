@@ -1,5 +1,5 @@
 ---
-name: Eon Project (Not final name)
+name: Eon Project
 status: In development
 url: https:throyd.github.io/eonproject/
 ---
